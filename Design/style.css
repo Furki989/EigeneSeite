@@ -9,6 +9,8 @@
 
 :root{
     --text-color: #f5f5dc;
+    --orange-color: orangered;
+    --background-color: rgba(0, 0, 0, 0.8);
 }
 
 .header{
@@ -33,13 +35,13 @@
 }
 
 .logo:hover{
-    color: orangered;
-    text-shadow:  0 0 25px orangered, 0 0 25px orangered;
+    color: var(--orange-color);
+    text-shadow:  0 0 25px var(--orange-color);
     transform: scale(1.1);
 }
 
 .rest{
-    color: orangered;
+    color: var(--orange-color);
 }
 
 .navbar a{
@@ -52,8 +54,8 @@
 }
 
 .navbar a:hover, .navbar a.active{
-    color: orangered;
-    border-bottom: 3px solid orangered;
+    color: var(--orange-color);
+    border-bottom: 3px solid var(--orange-color);
 }
 
 .Kontakt{
@@ -69,8 +71,8 @@
 }
 
 .Kontakt:hover{
-    background-color: orangered;
-    box-shadow: 0 0 25px orangered;
+    background-color: var(--orange-color);
+    box-shadow: 0 0 25px var(--orange-color);
     color: var(--text-color);
 
 }
@@ -119,7 +121,7 @@
 .btn-1{
 
     padding: 15px 28px;
-    background-color: black;
+    background-color: var(--background-color);
     color: var(--text-color);
     border: 2px solid transparent;
     font-size: 18px;
@@ -142,7 +144,7 @@
 .btn-2{
 
     padding: 15px 28px;
-    background-color: black;
+    background-color: var(--background-color);
     color: var(--text-color);
     border: 2px solid transparent;
     font-size: 18px;
@@ -179,4 +181,18 @@
 
 .Name{
     color: var(--text-color);
+}
+
+::-webkit-scrollbar{
+width: 15px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--text-color);
+}
+
+::-webkit-scrollbar-track{
+    background-color: var(--background-color);
+    width: 50px;
+   
 }
