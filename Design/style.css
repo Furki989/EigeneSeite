@@ -167,18 +167,6 @@
     border-radius: 50%;
 }
 
-.about{
-
-    width: 100%;
-    min-height: 100vh;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    gap: 7em;
-    padding: 30px 12% 0;
-
-}
-
 .Name{
     color: var(--text-color);
 }
@@ -194,5 +182,27 @@ width: 15px;
 ::-webkit-scrollbar-track{
     background-color: var(--background-color);
     width: 50px;
-   
+}
+
+.About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12%  8%;
+    gap: 10em;
+    background: white;
+}
+.about-img img{
+    position: relative;
+    width: 600px;
+    height: 454px;
+    border-radius: 50%;
+}
+
+.heading{
+    font-size: 42px;    
+}
+
+.h3about{
+    font-size: 20;
 }
