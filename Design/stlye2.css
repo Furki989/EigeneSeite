@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;   
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --text-color: #f5f5dc;
+    --orange-color: orangered;
+    --background-color: rgba(0, 0, 0, 0.8);
+}
+
+.About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12%  8%;
+    gap: 10em;
+    background: white;
+}
+.about-img img{
+    position: relative;
+    width: 600px;
+    height: 454px;
+    border-radius: 50%;
+}
+
+.heading{
+    font-size: 42px;    
+}
+
+.h3about{
+    font-size: 20;
+}

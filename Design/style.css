@@ -184,25 +184,3 @@ width: 15px;
     width: 50px;
 }
 
-.About{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 12%  8%;
-    gap: 10em;
-    background: white;
-}
-.about-img img{
-    position: relative;
-    width: 600px;
-    height: 454px;
-    border-radius: 50%;
-}
-
-.heading{
-    font-size: 42px;    
-}
-
-.h3about{
-    font-size: 20;
-}
