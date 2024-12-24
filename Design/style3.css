@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;   
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --text-color: #f5f5dc;
+    --orange-color: orangered;
+    --background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+.kontakth2{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 36px;
+
+
+}
