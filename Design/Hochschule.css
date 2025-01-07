@@ -17,7 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 12%  8%;
+    padding: 9%  8%;
     gap: 10em;
     background: white;
 }
@@ -40,13 +40,13 @@
 
 .pabout{
     font-size: 18px;
-    margin: 25px 0 30px;
+    margin: 25px 0 35px;
     letter-spacing: 0.5px;
     line-height: 25px;
 }
 
 .btn-3{
-    
+    display: block;
     padding: 15px 28px;
     background-color: var(--background-color);
     color: var(--text-color);
