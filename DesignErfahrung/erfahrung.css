@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;   
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --text-color: #f5f5dc;
+    --orange-color: orangered;
+    --background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.skills{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #c5c5c5;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0
+}
+

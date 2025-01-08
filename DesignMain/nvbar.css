@@ -79,43 +79,6 @@
 }
 
 
-.Dienste{
-    width: 100%;
-    min-height: 100vh;
-    background-color: #c5c5c5;
-    display: flex;
-    align-items: center;
-    gap: 7em;
-    padding: 30px 12% 0;
-    
-}
-
-.Dienste h1{
-    margin-bottom: 150px;
-}
-
-.Beschreibungen{
-    font-size: 18px;
-    margin: 25px 0 30px;
-    letter-spacing: 0.5px;
-    line-height: 25px;
-}
-
-.Beschreibungen p{
-    margin-bottom: 60px;
-}
-
-.Symbole a{
-    display: flex;
-    font-size: 180px;
-    color: black;
-    width: 50px;
-    height: 40px;
-    line-height: 38px;
-    padding-right: 150px;
-    padding-bottom: 230px;
-}
-
 ::-webkit-scrollbar{
     width: 15px;
     }
