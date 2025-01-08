@@ -3,8 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;   
-    text-decoration: none;
-    list-style: none;
+    
+}
+
+
+body{
+
+    background-color: #c5c5c5;
 }
 
 :root{
@@ -13,14 +18,26 @@
     --background-color: rgba(0, 0, 0, 0.8);
 }
 
-
-.skills{
-    width: 100%;
-    min-height: 100vh;
-    background-color: #c5c5c5;
-    display: flex;
-    align-items: center;
-    gap: 7em;
-    padding: 30px 12% 0
+.inner{
+    padding-top: 20px;
 }
 
+.Titelo{
+text-align: center;
+padding: 8rem;
+font-size: 30px;
+}
+
+.Container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.icon{
+    padding: 1rem;
+    color: black;
+    cursor: pointer;
+}
