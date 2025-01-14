@@ -20,7 +20,8 @@ body{
  padding-top: 8rem;
  font-size: 30px;
  position: relative;
- background-color: yellow;
+ 
+ 
 }
 
 .Container{
@@ -30,14 +31,13 @@ body{
     text-align: center;
     grid-gap: 3rem;
     padding: 5rem 120px;
-    background-color: white;
+    background-color: #c5c5c5;
     
 }
 
 .skill-box{
     padding: 1rem;
-    background-color: aqua;
-    cursor: pointer;
+   
 }
 
 .skill-titel{
@@ -47,7 +47,8 @@ body{
     align-items: center;
     padding: 1rem;
     margin-bottom: 0.5rem;
-    background-color: red;
+
+    
 }
 
 .img{
@@ -59,9 +60,22 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .icon{
-    width: 250px;
-    
+    width: 250px;    
+}
+
+p{
+    font-size: 18px;
+    margin: 25px 0 35px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+}
+
+h3{
+    padding-bottom: 15px;
+
+
 }
